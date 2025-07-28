@@ -3,9 +3,7 @@
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home
 
 # https://docs.datadoghq.com/tracing/trace_collection/library_config/java/
-export DD_TRACE_AGENT_PORT=8136
-
-
+# export DD_TRACE_AGENT_PORT=8136
 
 $JAVA_HOME/bin/java -javaagent:./dd-java-agent.jar \
  -Duser.timezone=UTC \
