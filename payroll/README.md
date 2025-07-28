@@ -2,9 +2,9 @@
 
 
 
-Use `run-payroll.sh` to start the Springboot microservice.
+Use `run-payroll.sh` to start the Springboot microservice. This uses Java JDK 11. Install the JDK and modify the script to set or remove the JAVA_HOME variable.
 
-Use `curl_payroll_2.sh` to send two test messages. 
+Use `curl_payroll_2.sh` to send two test messages. This is using [CURL](https://linuxize.com/post/curl-command-examples/) which you may need to install separately. 
 
 
 
